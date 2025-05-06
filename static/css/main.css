@@ -1,0 +1,68 @@
+/* static/css/main.css */
+/* Additional custom styles beyond Bootstrap */
+
+.custom-card-header {
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    color: white;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.stats-card {
+    background-color: #f8f9fa;
+    border-left: 4px solid #3498db;
+    margin-bottom: 15px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+    display: block;
+    border: 5px solid #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation for alerts */
+.alert {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom button styles */
+.btn-custom {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: white;
+    transition: all 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Grade badge customization */
+.grade-badge {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+}

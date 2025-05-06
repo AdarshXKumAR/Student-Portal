@@ -1,0 +1,52 @@
+<!-- templates/index.html -->
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="row justify-content-center">
+    <div class="col-md-10 text-center">
+        <h1 class="display-4 mb-4">Welcome to Student Portal</h1>
+        <p class="lead mb-5">Access your grades, update your profile, and manage your academic information.</p>
+        
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card mb-4 p-4 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-user-graduate fa-4x mb-3 text-primary"></i>
+                        <h3>View Grades</h3>
+                        <p>Check your academic performance and course grades.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 p-4 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-id-card fa-4x mb-3 text-primary"></i>
+                        <h3>Manage Profile</h3>
+                        <p>Update your personal information and contact details.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 p-4 text-center">
+                    <div class="card-body">
+                        <i class="fas fa-key fa-4x mb-3 text-primary"></i>
+                        <h3>Security</h3>
+                        <p>Change your password and manage account security.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        {% if not session.logged_in %}
+        <div class="mt-5">
+            <a href="/register" class="btn btn-primary btn-lg me-2">Sign Up</a>
+            <a href="/login" class="btn btn-outline-primary btn-lg">Login</a>
+        </div>
+        {% else %}
+        <div class="mt-5">
+            <a href="/dashboard" class="btn btn-primary btn-lg">Go to Dashboard</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
