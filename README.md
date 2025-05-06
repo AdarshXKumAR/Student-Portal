@@ -1,10 +1,10 @@
-# Student Portal
+# 🎓 Student Portal
 
 A comprehensive student portal web application built with Flask, MySQL, and Bootstrap. The system offers user authentication, profile management, grade tracking, and an innovative natural language database query interface powered by Google's Gemini AI model.
 
 ![Dashboard Screenshot](https://github.com/AdarshXKumAR/Student-Portal/blob/main/dashboard.png)
 
-## Features
+## ✨ Features
 
 - **User Authentication System**: Secure registration and login
 - **Profile Management**: Update personal information
@@ -13,7 +13,7 @@ A comprehensive student portal web application built with Flask, MySQL, and Boot
 - **Responsive Design**: Modern UI built with Bootstrap 5
 - **Security**: Password hashing, session management, and protected routes
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 - **Backend**: Flask (Python)
 - **Database**: MySQL
@@ -21,7 +21,7 @@ A comprehensive student portal web application built with Flask, MySQL, and Boot
 - **AI Integration**: Google Generative AI (Gemini 1.5 Pro)
 - **Security**: Werkzeug for password hashing
 
-## Screenshots
+## 📸 Screenshots
 
 ### Home Page
 ![Home Page](https://github.com/AdarshXKumAR/Student-Portal/blob/main/Home.png)
@@ -47,7 +47,7 @@ A comprehensive student portal web application built with Flask, MySQL, and Boot
 ![Change Password](https://github.com/AdarshXKumAR/Student-Portal/blob/main/password.png)
 *Secure interface for password updates*
 
-## Installation
+## ⚙️ Installation
 
 1. **Clone the repository**
    ```
@@ -85,13 +85,13 @@ A comprehensive student portal web application built with Flask, MySQL, and Boot
 7. **Access the application**
    Open your browser and navigate to `http://localhost:5000`
 
-## Requirements
+## 📋 Requirements
 
 - Python 3.8+
 - MySQL
 - Google Gemini API Key
 
-## Future Enhancements
+## 🚀 Future Enhancements
 
 - Course registration functionality
 - Academic calendar integration
@@ -100,7 +100,7 @@ A comprehensive student portal web application built with Flask, MySQL, and Boot
 - Mobile application
 - Admin dashboard
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
@@ -108,11 +108,11 @@ A comprehensive student portal web application built with Flask, MySQL, and Boot
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
+## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - Bootstrap for the responsive UI components
 - Google for the Gemini AI API
