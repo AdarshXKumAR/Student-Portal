@@ -2,7 +2,7 @@
 
 A comprehensive student portal web application built with Flask, MySQL, and Bootstrap. The system offers user authentication, profile management, grade tracking, and an innovative natural language database query interface powered by Google's Gemini AI model.
 
-![Dashboard Screenshot](images/dashboard.png)
+![Dashboard Screenshot](https://github.com/AdarshXKumAR/Student-Portal/blob/main/dashboard.png)
 
 ## Features
 
@@ -24,27 +24,27 @@ A comprehensive student portal web application built with Flask, MySQL, and Boot
 ## Screenshots
 
 ### Home Page
-![Home Page](images/home.png)
+![Home Page](https://github.com/AdarshXKumAR/Student-Portal/blob/main/Home.png)
 *The welcoming landing page for the Student Portal*
 
 ### Login Interface
-![Login](images/login.png)
+![Login](https://github.com/AdarshXKumAR/Student-Portal/blob/main/Login.png)
 *Clean and secure login interface*
 
 ### User Dashboard
-![Dashboard](images/dashboard.png)
+![Dashboard](https://github.com/AdarshXKumAR/Student-Portal/blob/main/dashboard.png)
 *Personalized dashboard showing user profile and grades*
 
 ### Profile Management
-![Profile](images/profile.png)
+![Profile](https://github.com/AdarshXKumAR/Student-Portal/blob/main/profile.png)
 *Interface to update personal information*
 
 ### Natural Language Database Query
-![NL Database](images/nl_database.png)
+![NL Database](https://github.com/AdarshXKumAR/Student-Portal/blob/main/nl_database.png)
 *Innovative interface to query the database using natural language*
 
 ### Password Management
-![Change Password](images/change_password.png)
+![Change Password](https://github.com/AdarshXKumAR/Student-Portal/blob/main/password.png)
 *Secure interface for password updates*
 
 ## Installation
